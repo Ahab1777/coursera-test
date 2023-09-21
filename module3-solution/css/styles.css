@@ -1,0 +1,75 @@
+#header-nav {
+    background-color: grey;
+    border-radius: 0;
+    border: 0;
+           
+}
+
+.navbar-default #brand-name {
+    color: #000000;
+    font-size: 35px;
+    position: relative;
+    line-height: normal;
+}
+
+@media (max-width: 276px) {
+    .navbar-default #brand-name {
+        color: #000000;
+        font-size: 10px;
+        position: relative;
+        line-height: normal;
+    }
+}
+
+.h1, h1 {
+    font-size: 30px;
+    color: #000000;
+}
+
+#navbar-container {
+    margin-left: 0%;
+}
+
+/* dropdown menu */
+
+.navbar-nav {
+    margin: 0px -15px;
+}
+
+.nav-list {
+    margin-top: 10px;
+    background-color: rgba(230, 218, 218, 0.678);
+}
+
+.navbar-header {
+    height: 66px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: solid black;
+}
+
+#nav-list>li {
+    font-size: 18px;
+    color: #000000;
+    background-color: rgba(230, 218, 218, 0.678);
+}
+
+@media (min-width: 768px){
+    #menu-items {
+        background-color: grey;
+    }
+}
+
+
+/* content */
+
+#chicken-content    {
+    background-color: grey;
+    padding: 1px 15px 5px 15px;
+    color: #000000;
+}
+
+.h2, h2 {
+    font-size: 22px;
+}
